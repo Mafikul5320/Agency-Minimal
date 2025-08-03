@@ -1,10 +1,16 @@
 import React from 'react';
 import Navber from '../Components/Navber';
+import HeroSection from '../Home/HeroSection';
+import QualityFeatures from '../Home/QualityFeatures';
 
 const HomeLayout = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
-           <Navber></Navber> 
+        <div>
+            <div className='bg-[#F6F8FB]'>
+                <Navber />
+                <HeroSection />
+            </div>
+            <QualityFeatures />
         </div>
     );
 };

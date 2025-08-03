@@ -3,7 +3,8 @@ import logo from '../assets/Group.png'
 
 const Navber = () => {
     return (
-        <nav className='flex items-center justify-between pt-2'>
+        <nav className='max-w-7xl mx-auto flex items-center justify-between pt-2 '>
+
             {/* Left Side */}
             <div className='flex items-center space-x-2'>
                 <div>
