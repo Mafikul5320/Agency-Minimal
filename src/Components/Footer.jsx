@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='max-w-7xl mx-auto justify-between flex pt-10 pb-7'>
             <div className='flex items-center space-x-3'>
                 <img src={Group} />
-                <h1>Copyright by 2019 Dev, Inc</h1>
+                <h1 className='text-gray-400 text-[14px]'>Copyright by 2019 Dev, Inc</h1>
             </div>
 
             <div className='flex items-center space-x-3'>

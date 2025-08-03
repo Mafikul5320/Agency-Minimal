@@ -10,10 +10,10 @@ const HeroSection = () => {
 
             {/* left */}
             <div>
-                <h1 className='text-5xl font-semibold leading-15 text-[#02073E]'>Great software is <br /> built with amazing <br /> developers</h1>
-                <p className='py-6 leading-8  text-[#02073E]'>We help build and manage a team of world-class <br /> developers to bring your vision to life</p>
-                <input className='bg-white w-[370px] py-3 px-5 rounded-[8px]' placeholder='Subscribe newsletter' type="text" />
-                <button className='bg-[#8D448B] text-white py-3 ml-2 rounded-[4px] px-7'>Subscribe</button>
+                <h1 className='text-[64px] font-semibold leading-19 text-[#02073E]'>Great software is <br /> built with amazing <br /> developers</h1>
+                <p className='py-6 leading-8  text-[18px] text-[#02073E]'>We help build and manage a team of world-class <br /> developers to bring your vision to life</p>
+                <input className='bg-white w-[370px] h-[65px] py-6 px-5 rounded-[8px]' placeholder='Subscribe newsletter' type="text" />
+                <button className='bg-[#8D448B] text-white py-5 ml-4 rounded-[4px] px-12 font-semibold'>Subscribe</button>
                 <div className='flex items-center space-x-9 my-13'>
                     <h1>Sponsored by:</h1>
                     <img src={Paypal} alt="Paypal" />
@@ -23,7 +23,7 @@ const HeroSection = () => {
             </div>
 
             {/* Right */}
-            <div className='h-140 w-140'>
+            <div className='h-150 w-150'>
                 <img src={Hero}  />
             </div>
         </div>
