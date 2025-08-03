@@ -46,15 +46,15 @@ const QualityFeatures = () => {
                     <h1 className='text-5xl text-[#0F2137] font-semibold leading-15'>Boost your agencies <br /> by choosing Ninja <br /> Developers</h1>
                     <p className='pt-5 pb-7 text-[#02073E] leading-relaxed'>Create custom landing pages with Shades that convert <br /> more visitors than any website, no coding required.</p>
                     <div className='flex items-center space-x-3 mb-2'>
-                        <img  src={right} />
+                        <img src={right} />
                         <h1 className='text-[#02073E]'>Unlimited design possibility</h1>
                     </div>
                     <div className='flex items-center space-x-3 mb-2'>
-                        <img  src={right} />
+                        <img src={right} />
                         <h1 className='text-[#02073E]'>Completely responsive features</h1>
                     </div>
                     <div className='flex items-center space-x-3'>
-                        <img  src={right} />
+                        <img src={right} />
                         <h1 className='text-[#02073E]'>Easy to customize plugins</h1>
                     </div>
                     <h1 className='flex items-center pl-8 mt-6 text-[#8D448B] font-medium'>Learn more <ChevronRight className='pt-1' size={19} /></h1>

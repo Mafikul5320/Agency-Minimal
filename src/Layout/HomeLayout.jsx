@@ -5,6 +5,7 @@ import QualityFeatures from '../Home/QualityFeatures';
 import LeadingCompanies from '../Home/LeadingCompanies';
 import CustomerSupport from '../Home/CustomerSupport';
 import Tutorials from '../Home/Tutorials';
+import Footer from '../Components/Footer';
 
 const HomeLayout = () => {
     return (
@@ -17,6 +18,7 @@ const HomeLayout = () => {
             <LeadingCompanies />
             <CustomerSupport />
             <Tutorials />
+            <Footer />
         </div>
     );
 };
