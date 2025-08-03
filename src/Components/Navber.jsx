@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/Group.png'
+import { FaCaretDown } from 'react-icons/fa';
 
 const Navber = () => {
     return (
@@ -14,10 +15,10 @@ const Navber = () => {
             </div>
 
             {/* Middle point */}
-            <div className='space-x-4'>
+            <div className='space-x-4 flex items-center'>
                 <button>Home</button>
-                <button>Adversite</button>
-                <button>Supports</button>
+                <button className='flex items-center'>Adversite <FaCaretDown size={19} className='pl-.05 pb-1' /></button>
+                <button className='flex items-center'>Supports <FaCaretDown  size={19} className='pl-.05 pb-1' /></button>
                 <button>Contact</button>
                 <button>About us</button>
             </div>
