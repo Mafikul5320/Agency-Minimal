@@ -1,9 +1,31 @@
 import React from 'react';
+import logo from '../assets/Group.png'
 
 const Navber = () => {
     return (
-        <div>
-        </div>
+        <nav className='flex items-center justify-between pt-2'>
+            {/* Left Side */}
+            <div className='flex items-center space-x-2'>
+                <div>
+                    <img src={logo} alt="Builderz" />
+                </div>
+                <h1 id='Builderz'>Builderz</h1>
+            </div>
+
+            {/* Middle point */}
+            <div className='space-x-4'>
+                <button>Home</button>
+                <button>Adversite</button>
+                <button>Supports</button>
+                <button>Contact</button>
+                <button>About us</button>
+            </div>
+
+            {/* Right side */}
+            <div>
+                <button className='border-2 border-[#8D448B] text-[#8D448B] font-semibold rounded-[5px] py-1.5 px-3'>Register Now</button>
+            </div>
+        </nav>
     );
 };
 
