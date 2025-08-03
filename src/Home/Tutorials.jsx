@@ -13,7 +13,7 @@ const Tutorials = () => {
             <div className='max-w-7xl mx-auto'>
                 <h1 className='text-center py-3 font-semibold text-[#8D448B] text-xl'>Quality features</h1>
                 <h1 className='text-center font-semibold text-[30px] pb-20'>Tutorials that people love most</h1>
-                <div className='grid grid-cols-3 gap-7'>
+                <div className='grid md:grid-cols-3 gap-7'>
                     <div className='bg-white rounded-xl border border-gray-100 '>
                         <img src={course1} />
                         <h1 className='p-5 text-xl font-semibold'>How to work with prototype design with adobe xd featuring tools</h1>
@@ -31,14 +31,14 @@ const Tutorials = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-[#8D448B] max-w-7xl mx-auto p-9 text-white flex justify-between items-center mb-19 rounded-xl absolute -bottom-41 right-78 w-full'>
-                <h1 className='text-4xl font-medium leading-13'>Hire the world’s best developers <br /> and designers around!</h1>
-                <img src={image} />
+            <div className='bg-[#8D448B] pb-14 max-w-7xl mx-auto p-6 sm:p-9 text-white flex flex-col lg:flex-row justify-between items-center mt-22 gap-6 rounded-xl absolute left-0 right-0 md:-bottom-21 -bottom-26  md:mx-auto w-[calc(100%-2rem)] md:w-full'>
+                <h1 className='md:text-4xl font-medium md:leading-13'>Hire the world’s best developers <br /> and designers around!</h1>
+                <img className='w-36 md:w-0' src={image} />
                 <div className='relative'>
                     <img className='absolute -top-7 left-17 opacity-65' src={Rectangle1} />
                     <img className='absolute -top-9 left-27 opacity-65' src={Rectangle2} />
                     <img className='absolute -top-7 left-33 opacity-65' src={Rectangle3} />
-                    <button className='bg-white text-[#8D448B] font-semibold px-9 py-4 rounded-sm text-[17px]'>HIRE DEVELOPERS</button>
+                    <button className='bg-white text-[#8D448B] font-semibold px-9 py-4 rounded-sm md:text-[17px]'>HIRE DEVELOPERS</button>
                     <img className='absolute -bottom-7 left-18 opacity-65' src={Rectangle3} />
                     <img className='absolute -bottom-9 left-28 opacity-65' src={Rectangle2} />
                     <img className='absolute -bottom-7 left-34 opacity-65' src={Rectangle1} />
